@@ -4,4 +4,4 @@ from django.shortcuts import render
 #     return HttpResponse('<h1 style= "color:white; background-color:black; height: 100vh; text-align: center;">This is the main home page</h1>')
 
 def home_page(request):
-    return render(request, "index.html")
+    return render(request, "../templates/index.html")
